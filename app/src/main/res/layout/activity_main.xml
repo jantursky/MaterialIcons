@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <LinearLayout style="@style/IconLayout">
+
+        <com.jantursky.materialicons.views.IconTextView
+            style="@style/IconTextView"
+            android:text="@string/icon_lock"
+            android:textColor="@color/md_brown_500" />
+
+        <com.jantursky.materialicons.views.IconTextView
+            style="@style/IconTextView"
+            android:text="@string/icon_movie_filter"
+            android:textColor="@color/md_red_500" />
+
+        <com.jantursky.materialicons.views.IconTextView
+            style="@style/IconTextView"
+            android:text="@string/icon_panorama_wide_angle"
+            android:textColor="@color/md_blue_500" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/IconLayout">
+
+        <com.jantursky.materialicons.views.IconTextView
+            style="@style/IconTextView"
+            android:text="@string/icon_photo_size_select_actual"
+            android:textColor="@color/md_orange_500" />
+
+        <com.jantursky.materialicons.views.IconTextView
+            style="@style/IconTextView"
+            android:text="@string/icon_recent_actors"
+            android:textColor="@color/md_yellow_500" />
+
+        <com.jantursky.materialicons.views.IconTextView
+            style="@style/IconTextView"
+            android:text="@string/icon_reorder"
+            android:textColor="@color/md_green_500" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/IconLayout">
+
+        <com.jantursky.materialicons.views.IconTextView
+            style="@style/IconTextView"
+            android:text="@string/icon_sentiment_dissatisfied"
+            android:textColor="@color/md_cyan_500" />
+
+        <com.jantursky.materialicons.views.IconTextView
+            style="@style/IconTextView"
+            android:text="@string/icon_settings_input_composite"
+            android:textColor="@color/md_purple_500" />
+
+        <com.jantursky.materialicons.views.IconTextView
+            style="@style/IconTextView"
+            android:text="@string/icon_signal_wifi_4_bar"
+            android:textColor="@color/md_indigo_500" />
+
+    </LinearLayout>
+
+</LinearLayout>
